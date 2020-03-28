@@ -1,4 +1,4 @@
-package com.kits.asli.activity;
+﻿package com.kits.asli.activity;
 
 import android.app.Dialog;
 import android.app.Dialog;
@@ -18,7 +18,6 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-test main part
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -53,7 +52,7 @@ import retrofit2.Response;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class NavActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener   {
-    private Action action;
+
     private boolean doubleBackToExitPressedOnce = false;
     private  Dialog dialog1 ;
     ArrayList<Good> goods;
